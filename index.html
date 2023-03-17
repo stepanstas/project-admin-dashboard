@@ -6,56 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <header></header>
+        <header>
+            <div class="header-top">
+                <form action="https://google.com/search" method="get" class="header-search" id="search-form" novalidate>
+                    <input type="search" name="searchbar" id="searchbar" autocomplete="off">
+                    <button type="submit">Search</button>
+                </form>
+                <div class="container-user-controls">
+                    <span class="material-icons notifications">notifications</span>
+                    <span class="username">Stepan Stastny</span>
+                    <img src="image.png" alt="Profile photo" class="profile-photo">
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container-user-greeting">
+                    <img src="image.png" alt="Profile photo" class="profile-photo">
+                    <div class="container-greeting">
+                        <p>Hello,</p>
+                        <p class="username">Stepan</p>
+                    </div>
+                </div>
+                <div class="container-action-buttons">
+                    <button>Create</button>
+                    <button>Review</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
         <aside>
             <h1>
-                <span class="icon dashboard"></span>
+                <span class="material-icons dashboard">dashboard</span>
                 Dashboard
             </h1>
             <nav class="nav-sidebar">
                 <a class="sidebar-link">
-                    <span icon home></span>
+                    <span class="material-icons home">home</span>
                     Home
                 </a>
                 <a class="sidebar-link">
-                    <span class="icon profile"></span>
+                    <span class="material-icons profile">person</span>
                     Profile
                 </a>
                 <a class="sidebar-link">
-                    <span class="icon messages"></span>
+                    <span class="material-icons messages">mail</span>
                     Messages
                 </a>
                 <a class="sidebar-link">
-                    <span class="icon history"></span>
+                    <span class="material-icons history">rate_review</span>
                     Reviews
                 </a>
                 <a class="sidebar-link">
-                    <span class="icon tasks"></span>
+                    <span class="material-icons tasks">photo_library</span>
                     Content
                 </a>
                 <a class="sidebar-link">
-                    <span class="icon "></span>
+                    <span class="material-icons wallet">account_balance_wallet</span>
                     Wallet
                 </a>
                 <div class="divider"></div>
                 <a class="sidebar-link">
-                    <span class="icon settings"></span>
+                    <span class="material-icons settings">settings</span>
                     Settings
                 </a>
                 <a class="sidebar-link">
-                    <span class="icon support"></span>
+                    <span class="material-icons support">help</span>
                     Support
+                </a>
                 <a class="sidebar-link">
-                    <span class="icon privacy"></span>
+                    <span class="material-icons privacy">lock</span>
                     Privacy
                 </a>
             </nav>
         </aside>
         <main>
+            <section class="section-reviews">
+                <h2>Your reviews</h2>
+                <div class="container-reviews">
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    <div class="review"></div>
+                    </div>
+            </section>
+            <section class="section-trending">
+                <article>
+                    <h3>Trending reviews</h3>
+                    <div class="trending-review">
 
+                    </div>
+                </article>
+                <article>
+                    <h3>Trending content</h3>
+                    <div class="trending-content">
+
+                    </div>
+                </article>
         </main>
     </div>
     
