@@ -4,3 +4,5 @@ Created an admin dashboard using CSS grid, flexbox, and vanilla javascript. This
 
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
 
+See the final project live here: https://stepanstas.github.io/project-admin-dashboard/
+
